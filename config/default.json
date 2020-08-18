@@ -1,3 +1,3 @@
 {
-    "mongoURI":"mongodb+srv://admin123456:admin123456@cluster0.dl5aq.mongodb.net/essential?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://admin123:admin123@cluster0.wmqmx.mongodb.net/test?retryWrites=true&w=majority"
 }
