@@ -17,10 +17,10 @@ app.get("/",(req,res)=>{
 
 // app.get
 
-app.use("/api/auth",require("./routes/auth"))
+// app.use("/api/auth",require("./routes/auth"))
 app.use("/api/users",require("./routes/users"))
 app.use("/api/contacts",require("./routes/contacts"))
-const PORT=process.env.PORT || 5000;
+const PORT=process.env.PORT || 6000;
 
 app.listen(PORT,()=>{
     console.log("server started on 5000")
