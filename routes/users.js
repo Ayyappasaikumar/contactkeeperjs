@@ -12,7 +12,7 @@ const User = require('../models/User');
 // @desc      Get logged in user
 // @access    Private
 router.get('/',  (req, res) => {
-  User.find({}, function(err, result) {
+  User.find({name:"ayyappa"}, function(err, result) {
     if (err) {
       console.log(err);
     } else {
@@ -21,15 +21,10 @@ router.get('/',  (req, res) => {
   });
  
 });
-router.post("/:id",(req,res)=>{
 
-  const user= User.findOne({name :req.params.id})
- 
- 
-  res.send(user);
-    
+
   
- })
+
 
 
 // @route     POST api/auth
